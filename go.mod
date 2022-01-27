@@ -1,5 +1,7 @@
 module github.com/hashicorp/terraform
 
+go 1.16
+
 require (
 	cloud.google.com/go v0.15.0
 	github.com/Azure/azure-sdk-for-go v10.3.0-beta+incompatible
@@ -17,7 +19,7 @@ require (
 	github.com/armon/circbuf v0.0.0-20150827004946-bbbad097214e
 	github.com/armon/go-metrics v0.0.0-20180917152333-f0300d1749da // indirect
 	github.com/armon/go-radix v0.0.0-20160115234725-4239b77079c7 // indirect
-	github.com/aws/aws-sdk-go v1.16.36
+	github.com/aws/aws-sdk-go v1.25.42
 	github.com/beorn7/perks v0.0.0-20180321164747-3a771d992973 // indirect
 	github.com/bgentry/go-netrc v0.0.0-20140422174119-9fd32a8b3d3d // indirect
 	github.com/bgentry/speakeasy v0.0.0-20161015143505-675b82c74c0e // indirect
